@@ -29,6 +29,11 @@
 			<CommandName>Form.Command.ЗагрузитьСправочники</CommandName>
 			<ExtendedTooltip name="ЗагрузитьСправочникиРасширеннаяПодсказка" id="6"/>
 		</Button>
+		<Button name="ПодрузитьДоговорыВебСервер" id="7">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ПодрузитьДоговорыВебСервер</CommandName>
+			<ExtendedTooltip name="ПодрузитьДоговорыВебСерверРасширеннаяПодсказка" id="8"/>
+		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -71,6 +76,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ЗагрузитьСправочники</Action>
+		</Command>
+		<Command name="ПодрузитьДоговорыВебСервер" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подрузить договоры веб сервер</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подрузить договоры веб сервер</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПодрузитьДоговорыВебСервер</Action>
 		</Command>
 	</Commands>
 </Form>
